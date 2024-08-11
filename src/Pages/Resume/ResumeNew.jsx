@@ -36,7 +36,13 @@ function ResumeNew() {
             <Page pageNumber={pageNumber} scale={width > 786 ? 1.7 : 0.6} />
           </Document>
         </Row>
-        <Row style={{ justifyContent: "center", position: "relative" }}>
+        <Row
+          style={{
+            justifyContent: "center",
+            position: "relative",
+            margin: "20px",
+          }}
+        >
           <Col
             className='d-flex'
             style={{
@@ -47,17 +53,28 @@ function ResumeNew() {
           >
             <Button
               variant='primary'
-              style={{ minWidth: "150px", maxWidth: "250px" }}
+              style={{ minWidth: "100px", maxWidth: "250px" }}
               onClick={() => setPageNumber(pageNumber > 1 ? pageNumber - 1 : 1)}
             >
               &nbsp;Previous
             </Button>
-            <span>
-              Page {pageNumber} of {numPages}
+            <span
+              style={{
+                minWidth: "100px",
+                maxWidth: "250px",
+                display: "flex",
+                justifyContent: "center",
+                alignItems: "center",
+              }}
+            >
+              <b className='purple'>
+                {" "}
+                Page {pageNumber} of {numPages}
+              </b>
             </span>
             <Button
               variant='primary'
-              style={{ minWidth: "150px", maxWidth: "250px" }}
+              style={{ minWidth: "100px", maxWidth: "250px" }}
               onClick={() =>
                 setPageNumber(pageNumber < numPages ? pageNumber + 1 : numPages)
               }
