@@ -12,8 +12,8 @@ function AboutCard() {
             from <span className='purple'> Lahore, Pakistan.</span>
             <br />I am currently employed as a software developer at{" "}
             <span className='purple'>FRIZHUB </span>.
-            <br />I have completed Bachelors (B.SE) in Software Engineering at{" "}
-            <span className='purple'>COMSAT'S </span>. Lahore.
+            <br />I have completed Bachelors (BSSE) in Software Engineering at{" "}
+            <span className='purple'>COMSATS </span>. Lahore.
             <br />
             <br />
             Apart from coding, some other activities that I love to do!

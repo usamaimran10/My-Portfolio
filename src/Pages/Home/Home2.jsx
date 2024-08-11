@@ -33,20 +33,23 @@ function Home2() {
                 <b className='purple'>
                   E-commerce, Fin-Tech, Food Chain Websites{" "}
                 </b>{" "}
-                and also in areas related to{" "}
+              </i>
+              and also in areas related to{" "}
+              <i>
                 <b className='purple'>Product Based Companies.</b>
               </i>
               <br />
               <br />
               Whenever possible, I also apply my passion for developing products
-              with <b className='purple'>Node.js</b> and
+              with
               <i>
-                <b className='purple'>
-                  {" "}
-                  Modern Javascript Library and Frameworks
-                </b>
+                <b className='purple'> Node.js</b>
+              </i>{" "}
+              and
+              <i>
+                <b className='purple'> Modern Javascript Library </b>
               </i>
-              &nbsp; like
+              and Frameworks like
               <i>
                 <b className='purple'>
                   {" "}
