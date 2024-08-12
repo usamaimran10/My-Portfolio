@@ -19,7 +19,7 @@ function Projects() {
           Here are a few projects I've worked on recently.
         </p>
         <Row style={{ justifyContent: "center", paddingBottom: "10px" }}>
-          <Col xs={6} className='project-card'>
+          <Col md={6} xs={12} className='project-card'>
             <ProjectCard
               imgPath={fasset}
               isBlog={false}
@@ -27,7 +27,7 @@ function Projects() {
               description='Fasset lets you seamlessly and securely manage all of your digital and real-world financial assets - from wherever you are, in your currency of choice. We believe in democratizing access to global assets, and that everyone, everywhere should be able to use their hard-earned money to buy high-quality, globally-traded assets to build and preserve their wealth. '
             />
           </Col>
-          <Col xs={6} className='project-card'>
+          <Col md={6} xs={12} className='project-card'>
             <ProjectCard
               imgPath={cheezious}
               isBlog={false}
@@ -35,7 +35,7 @@ function Projects() {
               description='Cheezious has marked its presence as one of the major fast-food brands. With the pride of being Pakistani at heart, it continues to compete at par with multinational brands that have been established and present for decades. With over 50+ restaurants in Pakistan, it is one of the fastest-growing national fast-food chains. Cheezious Pakistan offers a wide variety of career opportunities for individuals who have a passion for learning and achieving great things. '
             />
           </Col>
-          <Col xs={6} className='project-card'>
+          <Col md={6} xs={12} className='project-card'>
             <ProjectCard
               imgPath={tour}
               isBlog={false}
@@ -43,7 +43,7 @@ function Projects() {
               description='The Tour de Amsterdam is a captivating cycling event that explores the enchanting streets and scenic canals of Amsterdam. This annual tour invites cyclists of all levels to experience the city unique charm while navigating through its neighborhoods, historic landmarks, and vibrant cultural hubs. '
             />
           </Col>
-          <Col xs={6} className='project-card'>
+          <Col md={6} xs={12} className='project-card'>
             <ProjectCard
               imgPath={legacy}
               isBlog={false}
