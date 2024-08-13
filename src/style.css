@@ -398,6 +398,19 @@ button:focus {
   color: #700c86 !important;
 }
 
+.contact-me-section {
+  position: relative;
+  padding-bottom: 70px !important;
+  padding-top: 10px !important;
+}
+
+.contact-me {
+  color: white !important;
+  padding-top: 20px !important;
+  padding-bottom: 20px !important;
+  text-align: center;
+}
+
 /* --------- */
 /* Footer */
 /* --------- */
