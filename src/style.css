@@ -415,10 +415,6 @@ button:focus {
   display: flex;
   flex-direction: column;
   gap: 30px;
-  padding-top: 20px !important;
-  padding-bottom: 20px !important;
-  padding-left: 150px !important;
-  padding-right: 150px !important;
 }
 
 /* --------- */
