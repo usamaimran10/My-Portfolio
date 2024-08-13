@@ -1,4 +1,4 @@
-import { Col, Container, Row } from "react-bootstrap";
+import { Col, Container, Row, Form } from "react-bootstrap";
 
 function ContactMe() {
   return (
@@ -22,6 +22,11 @@ function ContactMe() {
               </a>{" "}
               or through this form.
             </p>
+            <Container className='contact-me-form'>
+              <Form.Control placeholder='Your Email' />
+              <Form.Control placeholder='Subject' />
+              <Form.Control placeholder='Your Message' />
+            </Container>
           </Col>
         </Row>
       </Container>
