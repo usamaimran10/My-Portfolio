@@ -19,7 +19,6 @@ function ResumeNew() {
   };
 
   useEffect(() => {
-    console.log({ numPages, pageNumber });
     setWidth(window.innerWidth);
   }, []);
 
