@@ -13,7 +13,6 @@ import {
   SiNextdotjs,
   SiPostgresql,
   SiDocker,
-  SiVercel,
   SiExpress,
   SiNestjs,
 } from "react-icons/si";
