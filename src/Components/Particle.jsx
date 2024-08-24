@@ -3,6 +3,7 @@ import Particles, { initParticlesEngine } from "@tsparticles/react";
 import { loadSlim } from "@tsparticles/slim";
 
 function Particle() {
+  // eslint-disable-next-line
   const [init, setInit] = useState(false);
   useEffect(() => {
     initParticlesEngine(async (engine) => {
@@ -18,7 +19,7 @@ function Particle() {
 
   return (
     <Particles
-      id='tsparticles'
+      id="tsparticles"
       particlesLoaded={particlesLoaded}
       options={{
         particles: {
