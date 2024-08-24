@@ -2,7 +2,7 @@ import React, { useState, useEffect } from "react";
 import { Col, Container, Row } from "react-bootstrap";
 import Button from "react-bootstrap/Button";
 import Particle from "../../Components/Particle";
-import pdf from "../../Assets/Ubaid-UmerResume.pdf";
+import pdf from "../../Assets/Usama Imran.pdf";
 import { AiOutlineDownload } from "react-icons/ai";
 import { Document, Page, pdfjs } from "react-pdf";
 import "react-pdf/dist/esm/Page/AnnotationLayer.css";
@@ -24,13 +24,13 @@ function ResumeNew() {
 
   return (
     <div>
-      <Container fluid className='resume-section'>
+      <Container fluid className="resume-section">
         <Particle />
-        <Row className='resume'>
+        <Row className="resume">
           <Document
             file={pdf}
             onLoadSuccess={onDocumentLoadSuccess}
-            className='d-flex justify-content-center'
+            className="d-flex justify-content-center"
           >
             <Page pageNumber={pageNumber} scale={width > 786 ? 1.7 : 0.6} />
           </Document>
@@ -43,7 +43,7 @@ function ResumeNew() {
           }}
         >
           <Col
-            className='d-flex'
+            className="d-flex"
             style={{
               marginLeft: "450px",
               justifyContent: "space-evenly",
@@ -51,7 +51,7 @@ function ResumeNew() {
             }}
           >
             <Button
-              variant='primary'
+              variant="primary"
               style={{ minWidth: "100px", maxWidth: "250px" }}
               onClick={() => setPageNumber(pageNumber > 1 ? pageNumber - 1 : 1)}
             >
@@ -66,13 +66,13 @@ function ResumeNew() {
                 alignItems: "center",
               }}
             >
-              <b className='purple'>
+              <b className="purple">
                 {" "}
                 Page {pageNumber} of {numPages}
               </b>
             </span>
             <Button
-              variant='primary'
+              variant="primary"
               style={{ minWidth: "100px", maxWidth: "250px" }}
               onClick={() =>
                 setPageNumber(pageNumber < numPages ? pageNumber + 1 : numPages)
@@ -84,9 +84,9 @@ function ResumeNew() {
         </Row>
         <Row style={{ justifyContent: "center", position: "relative" }}>
           <Button
-            variant='primary'
+            variant="primary"
             href={pdf}
-            target='_blank'
+            target="_blank"
             style={{ maxWidth: "250px" }}
           >
             <AiOutlineDownload />
